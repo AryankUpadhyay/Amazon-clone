@@ -4,6 +4,7 @@ import Subtotal from './Subtotal';
 
 function Checkout() {
   return (
+    <div>
     <div className="checkout">
 
       <div className="checkout__left">
@@ -22,9 +23,10 @@ function Checkout() {
       </div>
       <div className="checkout__right">
         <Subtotal/>
-            <h2>The Subtotal will bbe here</h2>
+            {/* <h2>The Subtotal will be here</h2> */}
         </div>
         
+    </div>
     </div>
   )
 }

@@ -7,6 +7,7 @@ import {BrowserRouter as Router,Switch,Route}
 from "react-router-dom"
 import { Checkbox } from "@mui/material";
 import Checkout from "./Checkout";
+import BasketItems from "./BasketItems";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path="/checkout">
             <Checkout/>
             {/* <h1>I am following the channel</h1> */}
+            <BasketItems/>
         </Route>
 
         <Route path="/">
